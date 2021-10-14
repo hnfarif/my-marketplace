@@ -111,5 +111,22 @@
             color: #9191A9;
 
         }
+
+        .nav-pills {
+            .nav-link {
+                font-weight: normal;
+                font-size: 18px;
+                border-radius: 0;
+                color: #9191A9;
+
+                &.active {
+                    font-weight: 500;
+                    font-size: 18px;
+                    border-bottom: 2px solid #0c0d36;
+                    color: #0C0D36;
+                    background: none;
+                }
+            }
+        }
     }
 }
